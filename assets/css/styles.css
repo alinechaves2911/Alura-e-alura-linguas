@@ -3,6 +3,7 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo:#00030C;
+    --botao-azul-efeito: #3c92fa;
     --font: 'Inter', sans-serif;
 }
 body{
@@ -87,7 +88,50 @@ body{
     justify-content: center;
     list-style-type: none;
     margin: 5em 0;
+    transition: transform .3s;
 }
 .lista__item{
     font-size: 32px;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rodape__link{
+    display: flex;
+    padding: 1em;
+    margin-bottom: 5em;
+}
+.lista__link{
+    padding: 1em
+}
+.rodape__texto{
+    margin:0 5em;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 1em;
+}
+.texto_secundario{
+    margin-bottom: 3em;
+}
+.lista__link a:hover{
+    color: var(--botao-azul);
+}
+.lista__link  a:active {
+    color: var(--cinza-secundario);
+}
+.container__botao:hover{
+    background-color: var(--botao-azul-efeito);
+    color:var(--cor-de-fundo)
+}
+.botao_secundario:hover{
+    background-color: transparent;
+    color:var(--branco);
+}
+.dispositivos__lista img:hover{
+    transform: scale(1.1);
 }
