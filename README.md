@@ -10,6 +10,6 @@
 - CSS
 - GIT/ GITHUB
 
-[🔗 Clique aqui para acessar o site.](https://alinechaves2911.github.io/Alura-e-alura-linguas)
+[🔗 Clique aqui para acessar o site.](https://alura-e-alura-linguas.vercel.app)
 ## Imagem de como o site está:
 ![preview](Alura-plus.png)
